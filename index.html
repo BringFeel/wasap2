@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://wasap2.bringfeel.com.ar/style/css/login.css">
+    <link rel="shortcut icon" href="https://wasap2.bringfeel.com.ar/style/img/favicon.jpg" type="image/x-icon" />
+
+    <meta name="description" content="Wasap2 - Mensajes Privados (Re piola)">
+    <meta name="theme-color" content="#075e54">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wasap2.bringfeel.com.ar/">
+    <meta property="og:title" content="WASAP2">
+    <meta property="og:description" content="Website oficial de wasap2">
+    <meta property="og:image" content="https://wasap2.bringfeel.com.ar/style/img/favicon.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://wasap2.bringfeel.com.ar/">
+    <meta property="twitter:title" content="WASAP2">
+    <meta property="twitter:description" content="Website oficial de wasap2">
+    <meta property="twitter:image" content="https://wasap2.bringfeel.com.ar/style/img/favicon.jpg">
+
+    <title>Ingreso</title>
+</head>
+<body>
+<div id="main">
+    <h1>Ingreso al Wasap2</h1>
+    <form action="https://wasap2.bringfeel.com.ar/auth/login" method="post">
+            <label class="label-title"><b>Datos del Usuario</b></label>
+            <p id="message">---</p>
+            <input type="text" placeholder="Usuario" id="username" name="usuario" required>
+            <input type="password" placeholder="Contraseña" id="password" name="clave" required>
+
+            <button type="submit" name="enviar">Ingresar</button>
+
+            <label class="label-title">No tenés cuenta? Registrate!</label>
+            <button type="submit" onclick="location.href='https://wasap2.bringfeel.com.ar/register.html';" style="background-color: #6986bb;">Registro</button>
+    </form>
+</div>
+</body>
+<script src="https://wasap2.bringfeel.com.ar/assets/js/index.js"></script>
+</html>

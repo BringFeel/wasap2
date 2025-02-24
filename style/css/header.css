@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    }
+    header {
+        height:40px;
+        width:100%;
+        position:fixed;
+        background:#00000033;
+        z-index:120;
+    }
+    header li {
+        float: left;
+        list-style-type:none;
+        border-right: 1px solid #252525;
+    }
+    header li a {
+        float: left;
+        width: 98px;
+        height: 12px;
+        padding: 14px 7px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font: normal 62.5% "proxima-nova-alt", Helvetica, Arial, sans-serif;
+    }
+    header .logo {
+        float: left;
+        width: 201px;
+        height: 40px;
+        background:#3a764a no-repeat 16px 1px;
+        text-align: center;
+        font-family: fantasy;
+        font-weight: 900;
+    }
+    #show-nails:hover div.thumbnail-peekaboo {
+        display:block;
+    }
+    header div.thumbnail-peekaboo {
+        display:none;
+        width: 100%;
+        height: 58px;
+        top:40px;
+        left:0;
+        background-size:100px 100px;
+        position:absolute;
+        justify-content: end;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8099614845938375) 100%);
+    }
+    header div.thumbnail-peekaboo a {
+        float: right;
+        color: rgb(255, 78, 78);
+        font-weight: 900;
+    }
+    /*header div.thumbnail-peekaboo:hover {
+        -webkit-animation: TMNT 4s ease-in;
+        -webkit-animation-fill-mode:backwards;
+    }*/
+
+    #editAccount {
+        color: white;
+    }
+    .thumb {
+        height:140px;
+        width:210px;
+        top:136px;
+        left:12px;
+        position:relative;
+        background-size:contain;
+        box-shadow:-12px 0 0 12px #000;
+    }
+    .thumb:last-of-type {
+      box-shadow:0 0 0 12px #000;
+    }
+    .thumb:after {
+      content:attr(title);
+      font:normal normal 20pt 'impact';
+      position:relative;
+    }
+    .thumb:hover {
+        -webkit-filter: grayscale(80%);
+        -moz-filter: grayscale(80%);
+        -ms-filter: grayscale(80%);
+        -o-filter: grayscale(80%);
+        filter: grayscale(80%);
+        filter: url(grayscale.svg#greyscale);
+        filter: gray;
+    }
+    #show-nails {
+        float: right;
+    }
+
+    a {
+        margin: 0px 10px 0px 10px;
+    }

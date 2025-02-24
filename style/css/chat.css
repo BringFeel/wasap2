@@ -1,0 +1,72 @@
+body {
+    background-color: #181a1b;
+    font-family: sans-serif;
+    margin: 0;
+    color: #e8e6e3;
+}
+#main {
+    text-align: center;
+    padding: 20px;
+}
+#messages {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #202020;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 400px;
+    text-align: left;
+}
+.message {
+    margin: 5px 0;
+}
+#input-area {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#message-input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#send-button {
+    padding: 10px 20px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#send-button:hover {
+    background-color: #005bb5;
+}
+
+#main {
+text-align: center;
+}
+
+#centrado {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #00000000;
+}

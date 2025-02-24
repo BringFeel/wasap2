@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://wasap2.bringfeel.com.ar/style/css/login.css">
+    <link rel="shortcut icon" href="https://wasap2.bringfeel.com.ar/style/img/favicon.jpg" type="image/x-icon" />
+    <title>Registro</title>
+</head>
+<body style="background-color: #080e1a;">
+<div id="main">
+    <h1>Registro para el Wasap2</h1>
+    <form action="https://wasap2.bringfeel.com.ar/auth/register" method="post" style="background-color: #251010;">
+            <label class="label-title">Datos del Usuario</label>
+            <p id="error">---</p>
+            <input type="text" placeholder="Usuario" id="username" name="usuario" required maxlength="32" minlength="4">
+            <input type="password" placeholder="Contraseña" id="password" name="clave" required maxlength="32" minlength="4">
+
+            <button type="submit" name="enviar">Mandale Mecha</button>
+    </form>
+</div>
+</body>
+<script src="https://bringfeel.com.ar/assets/js/jquery.min.js"></script>
+<script src="https://wasap2.bringfeel.com.ar/assets/js/register.js"></script>
+</html>
